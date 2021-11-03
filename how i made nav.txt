@@ -1,0 +1,70 @@
+===html:
+<div class="header">
+                        <div class="links">
+                                <div class="left">
+                                        <a href=""><i class="fab fa-facebook-square"></i></a>
+                                        <a href=""><i class="fab fa-instagram"></i></a>
+                                        <a href=""><i class="fab fa-snapchat"></i></a>
+                                        <a href=""><i class="fab fa-flickr"></i></a>
+                                        <a href=""><i class="fab fa-twitter"></i></a>
+                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="right">
+                                        <a href=""><i class="fas fa-search"></i></a>
+                                </div>
+                        </div>
+                </div>
+
+
+===css:
+
+/* start header   */
+.header{
+        background-color: black;
+}
+.header .links{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.header .links .left{
+        display: flex;
+        justify-content: space-between;
+}
+.header .links .left a{
+        padding:  10px;
+      
+}
+.header .links .left a i{
+        color: #fff;
+        font-size: 15px;
+        width: 30px;
+        position: relative;
+        transform: translateY(-50%);
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        left: 25%;
+}
+.header .links .left a:hover{
+        background-color: #ddd;
+}
+.header .links .right{
+    
+        background-color: brown;
+        
+}
+.header .links .right a{
+        color: #fff;
+}
+.header .links .right a i{
+        padding: 10px;
+         color: #fff;
+        font-size: 30px;
+}
+
+.header .links .right a i:hover{
+        background-color: #ddd;
+}
+  /* end header   */
